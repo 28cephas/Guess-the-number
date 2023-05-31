@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>GUESS THE <span class="number">NUMBER</span></h1>
+      </header>
+
+      <aside>
+        <button class="start">START</button>
+        <button class="inst">HOW TO PLAY</button>
+      </aside>
+    </main>
+
+    <section>
+      <h2 class="guess">Guess My Number! (1 - 20)</h2>
+
+      <div class="display">
+        <div class="empty"></div>
+        <div class="correctScore">?</div>
+      </div>
+
+      <div class="dashboard">
+        <div class="inputScore">
+          <input type="number" class="input-number" />
+          <button class="check">check</button>
+        </div>
+
+        <div class="score-line">
+          <p class="c-number">Start guessing... 🤔</p>
+
+          <p class="score">💯 Score: <span class="score-point">20</span></p>
+          <p class="highscore">
+            🏆 Highscore: <span class="highscore-point"> 0</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="btn">
+        <button class="again">AGAIN!</button>
+        <button class="back">BACK</button>
+      </div>
+    </section>
+
+    <article>
+      <p>
+        "Guess the Number" is a game where you have to guess a secret number
+        between 1 and 20. <br />
+        User start with a score of 20 points and after each failed guess, the
+        points decreases by 1. <br />
+        If user score get to 0 point, the game will be lost and user will have
+        to start again using the "AGAIN" button.
+        <br />
+        Have fun while playing and Good luck!!!
+      </p>
+
+      <button class="article-back back">BACK</button>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
